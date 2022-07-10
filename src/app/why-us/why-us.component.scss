@@ -1,0 +1,100 @@
+.whySection {
+  background-color: #e7fbff;
+  font-family: "Lato";
+  .whyContainer {
+    .whText {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 84px;
+      background: linear-gradient(191.76deg, #233951 8.65%, #3ec5f1 100.79%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .whyBox {
+      background: rgba(62, 197, 241, 0.4);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      .h3Innovativetxt {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #233951;
+        opacity: 0.6;
+      }
+      .pInntext {
+        padding-top: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: black;
+      }
+      .innImg {
+        width: 428.07px;
+        height: 549.1px;
+      }
+      .innTextsection {
+        padding-left: 65px;
+        padding-top: 90px;
+      }
+    }
+    .agilityBox {
+      background: rgba(62, 197, 241, 0.4);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      .h3agilitytxt {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #233951;
+        opacity: 0.6;
+      }
+      .pagilitytext {
+        padding-top: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: black;
+      }
+      .agilityImg {
+        width: 428.07px;
+        height: 549.1px;
+      }
+      .agilityTextsection {
+        padding-left: 65px;
+        padding-top: 90px;
+      }
+    }
+    .personalizedBox {
+      .h3personalizedtxt {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #233951;
+        opacity: 0.6;
+      }
+      .ppersonalizedtext {
+        padding-top: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: black;
+      }
+      .personalizedImg {
+        width: 428.07px;
+        height: 549.1px;
+      }
+      .personalizedTextsection {
+        padding-left: 65px;
+        padding-top: 90px;
+      }
+    }
+  }
+}

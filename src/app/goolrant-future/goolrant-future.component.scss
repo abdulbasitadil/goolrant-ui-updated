@@ -1,0 +1,74 @@
+.gFuture{
+    background-image: url('../../assets/images/digitalfuture.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e7fbff;
+    height: 834px;
+    max-width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .dFutureContent{
+        width: 627px;
+        height: 345px;
+        margin: 217px 0 0 0px;
+        padding-left: 55px;
+        border-left: 3px solid black;
+        margin-left: 4px;
+        .heaContent{
+            width: 558px;
+            height: 168px;
+        }
+        .parContent{
+            width: 520px;
+            height: 168px;
+        }
+        h1{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 148%;
+            color: #223751;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        p{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 148%;
+            color: #233951;
+            text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        }
+      
+    }
+    .hLink{
+        margin-left: 1px;
+        div{
+            display: inline-block;
+            margin-top: 10px;
+        }
+        a{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 148%;
+            text-decoration-line: underline;
+            color: #223751;
+            text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+            padding-left: 50px;
+        }
+        i{
+            margin-top: 10px;
+            animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            transform-origin: 0% 0%;
+        }
+    }
+}
+@keyframes bounce {
+    50% {
+        transform: translateY(-8px);
+      }
+    }
+    

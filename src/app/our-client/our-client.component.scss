@@ -1,0 +1,20 @@
+#client {
+  background-color: #e7fbff;
+  .clientHeader {
+    padding: 15px 0;
+  }
+  .clContainer {
+    padding-bottom: 70px;
+  }
+  .clientBox {
+    background: #eafaff;
+    box-shadow: 0px 8px 80px rgb(0 0 0 / 5%),
+      0px 3.34221px 33.4221px rgb(0 0 0 / 4%),
+      0px 1.7869px 17.869px rgb(0 0 0 / 3%),
+      0px 1.00172px 10.0172px rgb(0 0 0 / 3%),
+      0px 0.532008px 5.32008px rgb(0 0 0 / 2%),
+      0px 0.221381px 2.21381px rgb(0 0 0 / 1%);
+    border-radius: 20px;
+    padding: 73px 0px;
+  }
+}
