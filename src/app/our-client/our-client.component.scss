@@ -17,4 +17,16 @@
     border-radius: 20px;
     padding: 73px 0px;
   }
+  ::ng-deep {
+    .carousel-cells .carousel-cell img,
+    .carousel-cells .carousel-cell video {
+      width: auto;
+      height: auto;
+      position: unset;
+      object-fit: unset;
+    }
+    carousel.carousel {
+      min-height: calc(100vh - 0px);
+    }
+  }
 }
