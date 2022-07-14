@@ -74,14 +74,19 @@ a {
 }
 .carousel {
   height: 650px !important;
-  // width: 1000px !important;
-  // max-width: 100% !important;
-  // float: right;
-  // margin-right: 6rem;
 }
-// .carousel-cell {
-//   width: 390px !important;
-// }
+
+.servCon {
+  background-color: #e7fbff;
+  width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+.servParent {
+  background-color: #e7fbff;
+}
 .serviceSection {
   position: absolute;
   h1 {
@@ -102,14 +107,17 @@ a {
     padding-left: 4rem;
     padding-top: 26rem;
     button {
+      color: #223751;
+      background-color: #e7fbff;
       font-family: "Lato";
       font-style: normal;
       font-weight: 600;
       font-size: 22px;
       line-height: 26px;
-      color: #223751;
-      border: none;
+      border-radius: 6px;
       padding: 11px 9px;
+      border: 3px solid #223751;
+      // border-image-source: linear-gradient(180deg, #223751 0%, #3ec5f1 100%);
     }
   }
 }

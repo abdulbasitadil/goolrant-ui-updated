@@ -13,7 +13,10 @@
       background-clip: text;
     }
     .whyBox {
-      background: rgba(62, 197, 241, 0.4);
+      background-image: url("../../assets/images/innovative_bg.png");
+      // background-color: rgba(62, 197, 241, 0.4);
+      background-repeat: round;
+      background-size: cover;
       backdrop-filter: blur(20px);
       border-radius: 20px;
       .h3Innovativetxt {
@@ -42,7 +45,10 @@
       }
     }
     .agilityBox {
-      background: rgba(62, 197, 241, 0.4);
+      background-image: url("../../assets/images/Agility_bg.png");
+      background-repeat: round;
+      background-size: cover;
+      // background: rgba(62, 197, 241, 0.4);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       .h3agilitytxt {
