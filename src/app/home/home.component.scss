@@ -1,0 +1,26 @@
+.home-block {
+    
+    .lets-connect {
+        // background-color: #d3e7ff;
+        background: url('../../assets/images/lets-connect.png');
+        padding: 100px 40px;
+        text-align: center;
+
+        .lets-inside {
+            h3 {
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+                color: #223751;
+            }
+            button {
+                background: linear-gradient(180deg, #3EBBF1 0%, #74ADF4 100%);
+                border-radius: 10px;
+                color: #fff;
+                width: 180px;
+                height: 45px;
+                border: none;
+            }
+        }
+    }
+}

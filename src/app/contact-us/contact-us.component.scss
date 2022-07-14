@@ -1,0 +1,73 @@
+.contact-us {
+
+    .vertical-line {
+        border-left: 3px solid gray;
+        padding-right: 20px;
+    }
+    .vertical-arrow {
+        border-left: 3px solid gray;
+        left: -23px;
+        position: relative;
+        height: 10px;
+        bottom: -236px;
+    }
+
+    .top-side {
+        padding: 30px 0px 30px 20px;
+        background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
+        display: flex;
+        
+        p {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .text-color {
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 133.5%;
+            background: linear-gradient(180deg, #223751 27.08%, #3EC5F1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .right-img {
+            width: 100%;
+        }
+    }
+    .bottom-side {
+        padding: 30px 0px 30px 40px;
+        // background: url('../../assets/images/contact/background.png');
+        background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
+        .bottom-below {
+            display: flex;
+
+            .input-group {
+                margin-bottom: 20px;
+                input {
+                    background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
+                }
+                textarea {
+                    background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
+                    width: 100%;
+                    padding: 0.375rem 0.75rem;
+                    border-radius: 5px;
+                    border: 1px solid #ced4da;
+                }
+            }
+            .input-group-btn {
+                button {
+                    background: linear-gradient(180deg, #3EC5F1 0%, #74ADF4 100%);
+                    border-radius: 10px;
+                    width: 180px;
+                    height: 40px;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+        .right-img {
+            width: 100%;
+        }
+    }
+}
