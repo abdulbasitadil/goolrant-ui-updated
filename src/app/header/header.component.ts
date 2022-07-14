@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  menuDropDown: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickToggle() {
+    this.menuDropDown = !this.menuDropDown;
   }
 
 }

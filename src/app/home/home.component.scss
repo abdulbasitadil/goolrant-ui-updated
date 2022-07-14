@@ -1,4 +1,9 @@
 .home-block {
+    .add-video {
+        img {
+            width: 100%;
+        }
+    }
     .gFuture {
         background-image: url("../../assets/images/digital_future_section2.png");
         background-position: bottom;
@@ -308,9 +313,9 @@
           -webkit-text-fill-color: transparent;
           background-clip: text;
         }
-        .clContainer {
-          padding-bottom: 70px;
-        }
+        // .clContainer {
+        //   padding-bottom: 70px;
+        // }
         .clientBox {
           background: #eafaff;
           box-shadow: 0px 8px 80px rgb(0 0 0 / 5%),
@@ -330,8 +335,16 @@
             position: unset;
             object-fit: unset;
           }
-          carousel.carousel {
+          .carousel {
             min-height: calc(100vh - 0px);
+          }
+          .carousel-dot {
+            border: 2px solid #000;
+            width: 12px;
+            height: 12px;
+          }
+          .carousel-dots .carousel-dot-active {
+            background-color: #000;
           }
         }
       }
