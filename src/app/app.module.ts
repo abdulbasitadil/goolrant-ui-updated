@@ -26,7 +26,11 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     AppRoutingModule,
     IvyCarouselModule,
     HttpClientModule,
-    ToastrModule.forRoot(),
+   ToastrModule.forRoot({
+      closeButton: true,
+      timeOut: 15000, // 15 seconds
+      progressBar: true,
+    }),
     ReactiveFormsModule,
     BrowserAnimationsModule,
   ],
