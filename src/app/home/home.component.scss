@@ -1,376 +1,376 @@
 .home-block {
-    .add-video {
-      background-image: url('../../assets/images/video.gif');
-        img {
-            width: 100%;
-        }
+  .add-video {
+    background-image: url('../../assets/images/video.gif');
+    img {
+        width: 100%;
     }
-    .gFuture {
-        background-image: url("../../assets/images/digital_future_section2.png");
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #e7fbff;
-        height: 834px;
-        max-width: 100%;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        .dFutureContent {
-          width: 627px;
-          height: 345px;
-          margin: 217px 0 0 0px;
-          padding-left: 55px;
-          border-left: 3px solid black;
-          margin-left: 4px;
-          .heaContent {
-            width: 558px;
-            height: 168px;
-          }
-          .parContent {
-            width: 520px;
-            height: 168px;
-          }
-          h1 {
-            font-family: "Open Sans";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 148%;
-            color: #223751;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          }
-          p {
-            font-family: "Lato";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 22px;
-            line-height: 148%;
-            color: #233951;
-            text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-          }
-        }
-        .hLink {
-          margin-left: 1px;
-          div {
-            display: inline-block;
-            margin-top: 10px;
-          }
-          a {
-            font-family: "Open Sans";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 22px;
-            line-height: 148%;
-            text-decoration-line: underline;
-            color: #223751;
-            text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-            padding-left: 50px;
-          }
-          i {
-            margin-top: 10px;
-            animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
-            transform-origin: 0% 0%;
-          }
-        }
+  }
+  .gFuture {
+    background-image: url("../../assets/images/digital_future_section2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e7fbff;
+    height: 834px;
+    max-width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .dFutureContent {
+      width: 627px;
+      height: 345px;
+      margin: 217px 0 0 0px;
+      padding-left: 55px;
+      border-left: 3px solid black;
+      margin-left: 4px;
+      .heaContent {
+        width: 558px;
+        height: 168px;
       }
-      @keyframes bounce {
-        50% {
-          transform: translateY(-8px);
-        }
+      .parContent {
+        width: 520px;
+        height: 168px;
       }
-      .whySection {
-        background-color: #e7fbff;
+      h1 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 148%;
+        color: #223751;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      p {
         font-family: "Lato";
-        .whyContainer {
-          .whText {
-            font-style: normal;
-            font-weight: 700;
-            font-size: 70px;
-            line-height: 84px;
-            background: linear-gradient(191.76deg, #233951 8.65%, #3ec5f1 100.79%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-          }
-          .whyBox {
-            background-image: url("../../assets/images/innovative_bg.png");
-            // background-color: rgba(62, 197, 241, 0.4);
-            background-repeat: round;
-            background-size: cover;
-            backdrop-filter: blur(20px);
-            border-radius: 20px;
-            .h3Innovativetxt {
-              font-style: normal;
-              font-weight: 700;
-              font-size: 48px;
-              line-height: 58px;
-              color: #233951;
-              opacity: 0.6;
-            }
-            .pInntext {
-              padding-top: 15px;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 170%;
-              color: black;
-            }
-            .innImg {
-              width: 428.07px;
-              height: 549.1px;
-            }
-            .innTextsection {
-              padding-left: 65px;
-              padding-top: 90px;
-            }
-          }
-          .agilityBox {
-            background-image: url("../../assets/images/Agility_bg.png");
-            background-repeat: round;
-            background-size: cover;
-            // background: rgba(62, 197, 241, 0.4);
-            backdrop-filter: blur(20px);
-            border-radius: 20px;
-            .h3agilitytxt {
-              font-style: normal;
-              font-weight: 700;
-              font-size: 48px;
-              line-height: 58px;
-              color: #233951;
-              opacity: 0.6;
-            }
-            .pagilitytext {
-              padding-top: 15px;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 170%;
-              color: black;
-            }
-            .agilityImg {
-              width: 428.07px;
-              height: 549.1px;
-            }
-            .agilityTextsection {
-              padding-left: 65px;
-              padding-top: 90px;
-            }
-          }
-          .personalizedBox {
-            .h3personalizedtxt {
-              font-style: normal;
-              font-weight: 700;
-              font-size: 48px;
-              line-height: 58px;
-              color: #233951;
-              opacity: 0.6;
-            }
-            .ppersonalizedtext {
-              padding-top: 15px;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 170%;
-              color: black;
-            }
-            .personalizedImg {
-              width: 428.07px;
-              height: 549.1px;
-            }
-            .personalizedTextsection {
-              padding-left: 65px;
-              padding-top: 90px;
-            }
-          }
-        }
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 148%;
+        color: #233951;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
       }
-      .servParent {
-        background-color: #e7fbff;
-        h1 {
-          font-size: 36px;
-          color: #555;
-          font-weight: bold;
-        }
-      
-        h3 {
-          font-family: "Lato";
+    }
+    .hLink {
+      margin-left: 1px;
+      div {
+        display: inline-block;
+        margin-top: 10px;
+      }
+      a {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 148%;
+        text-decoration-line: underline;
+        color: #223751;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        padding-left: 50px;
+      }
+      i {
+        margin-top: 10px;
+        animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        transform-origin: 0% 0%;
+      }
+    }
+  }
+  @keyframes bounce {
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+  .whySection {
+    background-color: #e7fbff;
+    font-family: "Lato";
+    .whyContainer {
+      .whText {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 84px;
+        background: linear-gradient(191.76deg, #233951 8.65%, #3ec5f1 100.79%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .whyBox {
+        background-image: url("../../assets/images/innovative_bg.png");
+        // background-color: rgba(62, 197, 241, 0.4);
+        background-repeat: round;
+        background-size: cover;
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        .h3Innovativetxt {
           font-style: normal;
           font-weight: 700;
-          font-size: 22px;
-          line-height: 89%;
-          background: linear-gradient(180deg, #233951 7.29%, #233951 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          padding: 1.3rem 0;
+          font-size: 48px;
+          line-height: 58px;
+          color: #233951;
+          opacity: 0.6;
         }
-        .servCon {
-          background-color: #e7fbff;
-          width: 75%;
-          padding-left: 1rem;
-          padding-right: 1rem;
-          margin-left: auto;
-          margin-right: 3rem;
-        }
-        .serviceSection {
-          position: absolute;
-          h1 {
-            font-family: "Lato";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 36px;
-            background: linear-gradient(180deg, #244056 7.29%, #3ec5f1 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            padding-left: 4rem;
-            padding-top: 3rem;
-          }
-          .btnSection {
-            display: inline-block;
-            padding-left: 4rem;
-            padding-top: 26rem;
-            button {
-              color: #223751;
-              background-color: #e7fbff;
-              font-family: "Lato";
-              font-style: normal;
-              font-weight: 600;
-              font-size: 22px;
-              line-height: 26px;
-              border-radius: 6px;
-              padding: 11px 9px;
-              border: 3px solid #223751;
-              // border-image-source: linear-gradient(180deg, #223751 0%, #3ec5f1 100%);
-            }
-          }
-        }
-      
-        #team {
-          position: absolute;
-          top: 20%;
-          left: 6%;
-        }
-      
-        #team img {
-          margin-top: -130px;
-          margin-left: 0px;
-        }
-      
-        #team i {
-          font-size: 26px;
-          color: #555;
-        }
-      
-        #team p {
-          font-family: "Lato";
+        .pInntext {
+          padding-top: 15px;
           font-style: normal;
           font-weight: 400;
           font-size: 18px;
-          line-height: 142%;
+          line-height: 170%;
+          color: black;
+        }
+        .innImg {
+          width: 428.07px;
+          height: 549.1px;
+        }
+        .innTextsection {
+          padding-left: 65px;
+          padding-top: 90px;
+        }
+      }
+      .agilityBox {
+        background-image: url("../../assets/images/Agility_bg.png");
+        background-repeat: round;
+        background-size: cover;
+        // background: rgba(62, 197, 241, 0.4);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        .h3agilitytxt {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 58px;
+          color: #233951;
+          opacity: 0.6;
+        }
+        .pagilitytext {
+          padding-top: 15px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 170%;
+          color: black;
+        }
+        .agilityImg {
+          width: 428.07px;
+          height: 549.1px;
+        }
+        .agilityTextsection {
+          padding-left: 65px;
+          padding-top: 90px;
+        }
+      }
+      .personalizedBox {
+        .h3personalizedtxt {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 58px;
+          color: #233951;
+          opacity: 0.6;
+        }
+        .ppersonalizedtext {
+          padding-top: 15px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 170%;
+          color: black;
+        }
+        .personalizedImg {
+          width: 428.07px;
+          height: 549.1px;
+        }
+        .personalizedTextsection {
+          padding-left: 65px;
+          padding-top: 90px;
+        }
+      }
+    }
+  }
+  .servParent {
+    background-color: #e7fbff;
+    h1 {
+      font-size: 36px;
+      color: #555;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 89%;
+      background: linear-gradient(180deg, #233951 7.29%, #233951 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      padding: 1.3rem 0;
+    }
+    .servCon {
+      background-color: #e7fbff;
+      width: 75%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-left: auto;
+      margin-right: 3rem;
+    }
+    .serviceSection {
+      position: absolute;
+      h1 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        background: linear-gradient(180deg, #244056 7.29%, #3ec5f1 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        padding-left: 4rem;
+        padding-top: 3rem;
+      }
+      .btnSection {
+        display: inline-block;
+        padding-left: 4rem;
+        padding-top: 26rem;
+        button {
           color: #223751;
-          padding: 0.4rem 0;
-        }
-      
-        #team .card {
-          // width: 294px;
-          filter: drop-shadow(0px 8px 80px rgba(0, 0, 0, 0.07))
-            drop-shadow(0px 3.69864px 36.9864px rgba(0, 0, 0, 0.0519173))
-            drop-shadow(0px 2.11628px 21.1628px rgba(0, 0, 0, 0.0438747))
-            drop-shadow(0px 1.28457px 12.8457px rgba(0, 0, 0, 0.0377964))
-            drop-shadow(0px 0.774008px 7.74008px rgba(0, 0, 0, 0.0322036))
-            drop-shadow(0px 0.431018px 4.31018px rgba(0, 0, 0, 0.0261253))
-            drop-shadow(0px 0.185378px 1.85378px rgba(0, 0, 0, 0.0180827));
-          background: linear-gradient(
-            180deg,
-            rgba(229, 249, 255, 0.82) 0%,
-            #ffffff 82.29%
-          );
-          border-radius: 10px;
-        }
-        a {
-          font-family: "Inter";
+          background-color: #e7fbff;
+          font-family: "Lato";
           font-style: normal;
           font-weight: 600;
           font-size: 22px;
-          line-height: 27px;
-          text-decoration-line: underline;
-          color: #223751;
-        }
-        .card-body {
-          flex: 1 1 auto;
-          padding: 2rem 1rem;
-        }
-        .carousel {
-          height: 650px !important;
+          line-height: 26px;
+          border-radius: 6px;
+          padding: 11px 9px;
+          border: 3px solid #223751;
+          // border-image-source: linear-gradient(180deg, #223751 0%, #3ec5f1 100%);
         }
       }
-      #client {
-        background-color: #e7fbff;
-        .clientHeader {
-          padding: 15px 0;
-          background: linear-gradient(182.21deg, #233951 1.86%, #3ec5f1 134.05%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-        }
-        // .clContainer {
-        //   padding-bottom: 70px;
-        // }
-        .clientBox {
-          background: #eafaff;
-          box-shadow: 0px 8px 80px rgb(0 0 0 / 5%),
-            0px 3.34221px 33.4221px rgb(0 0 0 / 4%),
-            0px 1.7869px 17.869px rgb(0 0 0 / 3%),
-            0px 1.00172px 10.0172px rgb(0 0 0 / 3%),
-            0px 0.532008px 5.32008px rgb(0 0 0 / 2%),
-            0px 0.221381px 2.21381px rgb(0 0 0 / 1%);
-          border-radius: 20px;
-          padding: 73px 0px;
-        }
-        ::ng-deep {
-          .carousel-cells .carousel-cell img,
-          .carousel-cells .carousel-cell video {
-            width: auto;
-            height: auto;
-            position: unset;
-            object-fit: unset;
-          }
-          .carousel {
-            min-height: calc(100vh - 0px);
-          }
-          .carousel-dot {
-            border: 2px solid #000;
-            width: 12px;
-            height: 12px;
-          }
-          .carousel-dots .carousel-dot-active {
-            background-color: #000;
-          }
-        }
-      }
-    
-    .lets-connect {
-        // background-color: #d3e7ff;
-        background: url('../../assets/images/lets-connect.png');
-        padding: 100px 40px;
-        text-align: center;
-
-        .lets-inside {
-            h3 {
-                font-weight: 600;
-                font-size: 48px;
-                line-height: 58px;
-                color: #223751;
-            }
-            button {
-                background: linear-gradient(180deg, #3EBBF1 0%, #74ADF4 100%);
-                border-radius: 10px;
-                color: #fff;
-                width: 180px;
-                height: 45px;
-                border: none;
-            }
-        }
     }
+
+    #team {
+      position: absolute;
+      top: 20%;
+      left: 6%;
+    }
+
+    #team img {
+      margin-top: -130px;
+      margin-left: 0px;
+    }
+
+    #team i {
+      font-size: 26px;
+      color: #555;
+    }
+
+    #team p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 142%;
+      color: #223751;
+      padding: 0.4rem 0;
+    }
+
+    #team .card {
+      // width: 294px;
+      filter: drop-shadow(0px 8px 80px rgba(0, 0, 0, 0.07))
+        drop-shadow(0px 3.69864px 36.9864px rgba(0, 0, 0, 0.0519173))
+        drop-shadow(0px 2.11628px 21.1628px rgba(0, 0, 0, 0.0438747))
+        drop-shadow(0px 1.28457px 12.8457px rgba(0, 0, 0, 0.0377964))
+        drop-shadow(0px 0.774008px 7.74008px rgba(0, 0, 0, 0.0322036))
+        drop-shadow(0px 0.431018px 4.31018px rgba(0, 0, 0, 0.0261253))
+        drop-shadow(0px 0.185378px 1.85378px rgba(0, 0, 0, 0.0180827));
+      background: linear-gradient(
+        180deg,
+        rgba(229, 249, 255, 0.82) 0%,
+        #ffffff 82.29%
+      );
+      border-radius: 10px;
+    }
+    a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      text-decoration-line: underline;
+      color: #223751;
+    }
+    .card-body {
+      flex: 1 1 auto;
+      padding: 2rem 1rem;
+    }
+    .carousel {
+      height: 650px !important;
+    }
+  }
+  #client {
+    background-color: #e7fbff;
+    .clientHeader {
+      padding: 15px 0;
+      background: linear-gradient(182.21deg, #233951 1.86%, #3ec5f1 134.05%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    // .clContainer {
+    //   padding-bottom: 70px;
+    // }
+    .clientBox {
+      background: #eafaff;
+      box-shadow: 0px 8px 80px rgb(0 0 0 / 5%),
+        0px 3.34221px 33.4221px rgb(0 0 0 / 4%),
+        0px 1.7869px 17.869px rgb(0 0 0 / 3%),
+        0px 1.00172px 10.0172px rgb(0 0 0 / 3%),
+        0px 0.532008px 5.32008px rgb(0 0 0 / 2%),
+        0px 0.221381px 2.21381px rgb(0 0 0 / 1%);
+      border-radius: 20px;
+      padding: 73px 0px;
+    }
+    ::ng-deep {
+      .carousel-cells .carousel-cell img,
+      .carousel-cells .carousel-cell video {
+        width: auto;
+        height: auto;
+        position: unset;
+        object-fit: unset;
+      }
+      .carousel {
+        min-height: calc(100vh - 0px);
+      }
+      .carousel-dot {
+        border: 2px solid #000;
+        width: 12px;
+        height: 12px;
+      }
+      .carousel-dots .carousel-dot-active {
+        background-color: #000;
+      }
+    }
+  }
+
+  .lets-connect {
+    // background-color: #d3e7ff;
+    background: url("../../assets/images/lets-connect.png");
+    padding: 100px 40px;
+    text-align: center;
+
+    .lets-inside {
+      h3 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #223751;
+      }
+      button {
+        background: linear-gradient(180deg, #3ebbf1 0%, #74adf4 100%);
+        border-radius: 10px;
+        color: #fff;
+        width: 180px;
+        height: 45px;
+        border: none;
+      }
+    }
+  }
 }

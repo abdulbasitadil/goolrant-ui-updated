@@ -1,60 +1,134 @@
 <div class="contact-us">
-    <div class="container p-0">
-        <div class="top-side">
-            <!-- <div class="vertical-arrow"></div> -->
-            <div class="vertical-line col-md-8 col-sm-11">
-                <div class="text-side">
-                    <p>Contact Us</p>
-                    <div class="text-color">
-                        How Can We Help You ?
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <img src="../../assets/images/contact/top-img.png" alt="" class="right-img">
-            </div>
+  <div class="container p-0">
+    <div class="top-side">
+      <!-- <div class="vertical-line"></div> -->
+      <!-- <div class="vertical-arrow"></div> -->
+      <div class="vertical-line col-md-8 col-sm-12">
+        <div class="text-side">
+          <p>Contact Us</p>
+          <div class="text-color">How Can We Help You ?</div>
         </div>
-        <div class="bottom-side">
-            <p>Please help us with your following information so that  We will get in touch with you shortly.</p>
-            <div class="bottom-below">
-                <div class="col-md-6 col-sm-12">
-                    <p>Mandatory fields are marked with * </p>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Name*">
-                        </div>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Email Address*">
-                        </div>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Phone Number*">
-                        </div>
-                        <div class="input-group">
-                            <!-- <input type="text" class="form-control" placeholder="Looking for..."> -->
-                            <!-- <mat-select class="form-control" placeholder="Looking for...">
-                                <mat-option *ngFor="let service of services" [value]="service.value">
-                                  {{service.viewValue}}
-                                </mat-option>
-                              </mat-select> -->
-                              <select name='services' class="form-control" placeholder="Looking for...">
-                                <option value="cloud">Cloud Services</option>
-                                <option value="mobile">Mobile Development</option>
-                                <option value="website">Website Development</option>
-                                <option value="app">Application Development</option>
-                              </select>
-                        </div>
-                        <div class="input-group">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                        </div>
-                        <span class="input-group-btn">
-                            <button class="" type="submit">Submit</button>
-                        </span>
-                    </form>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <img src="../../assets/images/contact/side-image.png" alt="" class="right-img">
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img
+          src="../../assets/images/contact/top-img.png"
+          alt=""
+          class="right-img"
+        />
+      </div>
     </div>
+    <div class="bottom-side">
+      <p>
+        Please help us with your following information so that We will get in
+        touch with you shortly.
+      </p>
+      <div class="bottom-below">
+        <div class="col-md-6 col-sm-12">
+          <p>Mandatory fields are marked with *</p>
+          <form [formGroup]="userForm" (ngSubmit)="register()">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name*"
+                formControlName="name"
+                [ngClass]="{
+                  'border-red-800': message && message['name']
+                }"
+              />
+              <span
+                class="text-sm text-red-800"
+                *ngIf="message && message['name']"
+              >
+                {{ message["name"] }}
+              </span>
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email Address*"
+                formControlName="email"
+                [ngClass]="{
+                  'border-red-800': message && message['email']
+                }"
+              />
+              <span
+                class="text-sm text-red-800"
+                *ngIf="message && message['email']"
+              >
+                {{ message["email"] }}
+              </span>
+            </div>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Phone Number*"
+                formControlName="phone"
+                [ngClass]="{
+                  'border-red-800': message && message['phone']
+                }"
+              />
+              <span
+                class="text-sm text-red-800"
+                *ngIf="message && message['phone']"
+              >
+                {{ message["phone"] }}
+              </span>
+            </div>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Looking for..."
+                formControlName="subject"
+                [ngClass]="{
+                  'border-red-800': message && message['subject']
+                }"
+              />
+              <span
+                class="text-sm text-red-800"
+                *ngIf="message && message['subject']"
+              >
+                {{ message["subject"] }}
+              </span>
+            </div>
+            <div class="input-group">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                formControlName="descmessage"
+                [ngClass]="{
+                  'border-red-800': message && message['descmessage']
+                }"
+              ></textarea>
+            </div>
+            <span class="input-group-btn">
+              <button
+                class=""
+                [ngClass]="{
+                  'opacity-50': !userForm.valid
+                }"
+                type="submit"
+                [disabled]="!userForm.valid"
+              >
+                Submit
+              </button>
+            </span>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img
+            src="../../assets/images/contact/side-image.png"
+            alt=""
+            class="right-img"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
