@@ -12,6 +12,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { ToastrModule } from "ngx-toastr";
 import { ReactiveFormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { WebDevelopmentComponent } from './glrant-services/web-development/web-development.component';
+import { CloudServicesComponent } from './glrant-services/cloud-services/cloud-services.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     FooterComponent,
     HomeComponent,
     ContactUsComponent,
+    WebDevelopmentComponent,
+    CloudServicesComponent,
   ],
   imports: [
     BrowserModule,
