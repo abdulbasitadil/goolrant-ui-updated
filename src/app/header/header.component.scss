@@ -1,5 +1,6 @@
 .header {
 
+    // font-family: 'lato';
     /*RESPONSIVE NAVBAR MENU STARTS*/
     /* CHECKBOX HACK */
     input[type=checkbox] {
@@ -12,9 +13,6 @@
         font-size  : 24px;
         user-select: none;
     }
-    .res-menu {
-        display: none;
-    }
     /* APPLYING MEDIA QUERIES */
     @media (max-width: 768px) {
         .menu {
@@ -23,7 +21,7 @@
             background-color: #e7fbfe;
             right           : 0;
             left            : 0;
-            text-align      : center;
+            // text-align      : center;
             padding         : 20px 10px;
         }
 
@@ -72,14 +70,31 @@
 
     /* LOGO */
     .logo {
-        font-size: 32px;
+        min-height: 80px;
+        img {
+            width: 140px;
+        }
     }
 
     /* NAVBAR MENU */
+    @media (min-width: 769px) {
+        .menu {
+            display  : flex;
+        }
+    }
     .menu {
-        display  : flex;
+        // display  : flex;
         gap      : 1em;
         font-size: 18px;
+
+        // .active {
+        //     color: #3EC5F1;
+        //     text-decoration: underline;
+        // }
+        a:active {
+            color: #3EC5F1;
+            text-decoration: underline;
+          }
     }
 
     .menu li:hover {
@@ -127,6 +142,7 @@
 
     a {
         text-decoration: none;
+        color: black;
     }
 
     li {
