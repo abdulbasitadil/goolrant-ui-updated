@@ -1,8 +1,9 @@
 .contact-us {
 
     .vertical-line {
-        border-left: 3px solid gray;
-        padding-right: 20px;
+        width: auto;
+        padding-left: 20px;
+        border-left: 3px solid black;
     }
     .vertical-arrow {
         border-left: 3px solid gray;
@@ -16,6 +17,7 @@
         padding: 30px 0px 30px 20px;
         background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
         display: flex;
+        justify-content: space-between;
         
         p {
             font-weight: 400;
@@ -53,6 +55,9 @@
                     padding: 0.375rem 0.75rem;
                     border-radius: 5px;
                     border: 1px solid #ced4da;
+                }
+                select {
+                    background: linear-gradient(138.83deg, rgba(62, 197, 241, 0.15) 8.13%, rgba(122, 211, 229, 0.02) 86.96%);
                 }
             }
             .input-group-btn {

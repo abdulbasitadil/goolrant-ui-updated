@@ -9,10 +9,10 @@
             <ul class="nav-links">
                 <!-- USING CHECKBOX HACK -->
                 <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger" (click)="clickToggle()">&#9776;</label>
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <!-- NAVIGATION MENUS -->
-                <div class="menu" [class.res-menu]="menuDropDown">
-                    <li><a href="/">Home</a></li>
+                <div class="menu" id="menu">
+                    <li><a href="/home" class="active">Home</a></li>
                     <li><a href="/">About</a></li>
                     <li class="services">
                         <a href="/">Services</a>

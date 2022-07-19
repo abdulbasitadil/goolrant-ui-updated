@@ -1,9 +1,8 @@
 <div class="contact-us">
     <div class="container p-0">
         <div class="top-side">
-            <div class="vertical-line"></div>
             <!-- <div class="vertical-arrow"></div> -->
-            <div class="col-md-8 col-sm-12">
+            <div class="vertical-line col-md-8 col-sm-11">
                 <div class="text-side">
                     <p>Contact Us</p>
                     <div class="text-color">
@@ -31,7 +30,18 @@
                             <input type="text" class="form-control" placeholder="Phone Number*">
                         </div>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Looking for...">
+                            <!-- <input type="text" class="form-control" placeholder="Looking for..."> -->
+                            <!-- <mat-select class="form-control" placeholder="Looking for...">
+                                <mat-option *ngFor="let service of services" [value]="service.value">
+                                  {{service.viewValue}}
+                                </mat-option>
+                              </mat-select> -->
+                              <select name='services' class="form-control" placeholder="Looking for...">
+                                <option value="cloud">Cloud Services</option>
+                                <option value="mobile">Mobile Development</option>
+                                <option value="website">Website Development</option>
+                                <option value="app">Application Development</option>
+                              </select>
                         </div>
                         <div class="input-group">
                             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>

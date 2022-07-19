@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+interface Service {
+  value: string;
+  viewValue: string;
+}
 
 @Component({
   selector: 'app-contact-us',
@@ -6,6 +10,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-us.component.scss']
 })
 export class ContactUsComponent implements OnInit {
+
+  services: Service[] = [
+    {value: 'cloud', viewValue: 'Cloud Services'},
+    {value: 'cloud', viewValue: 'Cloud Services'},
+    {value: 'cloud', viewValue: 'Cloud Services'},
+    {value: 'cloud', viewValue: 'Cloud Services'},
+  ];
 
   constructor() { }
 
