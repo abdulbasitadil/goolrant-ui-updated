@@ -1,11 +1,11 @@
 #webdevcontainer {
   .webblock {
     .webCon {
-      background-image: url("../../../assets/images/dummygif.gif");
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../../assets/images/service_front.gif");
       background-size: cover;
       background-repeat: no-repeat;
       height: 100vh;
-      background-color: rgba(0, 0, 0, 0.7);
       backdrop-filter: blur(4px);
 
       .webheader {
@@ -32,9 +32,17 @@
       .arrow {
         margin-left: 39px;
         color: #39c5ef;
-        margin-top: 6px;
+        margin-top: 15px;
       }
-
+      i {
+        animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        transform-origin: 0% 0%;
+      }
+      @keyframes bounce {
+        50% {
+          transform: translateY(-8px);
+        }
+      }
       .imgcon {
         img.ipad {
           max-width: 100%;
@@ -82,9 +90,11 @@
 
   .weblegacy {
     .weblegacycon {
-      background-image: url("../../../assets/images/dummy1.gif");
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../../assets/images/mlegacy_gif.gif");
       background-size: cover;
-      background-repeat: no-repeat;
+      background-repeat: round;
+      backdrop-filter: blur(4px);
       .legh1Txt {
         padding-left: 2rem;
         h1 {

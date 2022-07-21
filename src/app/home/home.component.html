@@ -51,7 +51,7 @@
             </div>
           </div>
           <section class="servCon">
-            <carousel>
+            <carousel [cellsToShow]="3">
               <div class="carousel-cell">
                 <section id="team">
                   <div class="card">
@@ -59,7 +59,7 @@
                       <img
                         src="../../assets/images/cloudservice.png"
                         alt=""
-                        class="img-fluid rounded-circle mb-3"
+                        class="img-fluid rounded-circle mb-2"
                       />
                       <h3>Cloud Services</h3>
                       <p>
@@ -163,7 +163,10 @@
         <div class="whyBox">
           <div class="row">
             <div class="col-lg-4">
-              <img class="innImg" src="../../assets/images/innovative.png" />
+              <img
+                class="innImg"
+                src="../../assets/images/Innovative_fe1.png"
+              />
             </div>
             <div class="col-lg-6 innTextsection">
               <h3 class="h3Innovativetxt">Innovative</h3>
@@ -230,8 +233,7 @@
         </div>
       </div>
     </section>
-    <section id="client">
-      <div class="container clContainer">
+    <!-- <div class="container clContainer">
         <carousel [cellsToShow]="1" [dots]="true" [arrows]="false">
           <div class="carousel-cell">
             <div class="row">
@@ -304,7 +306,7 @@
           </div>
         </carousel>
       </div>
-    </section>
+    </section> -->
     <div class="lets-connect">
       <div class="lets-inside">
         <h3>Let's Connect</h3>

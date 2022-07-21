@@ -7,13 +7,12 @@
   }
   .gFuture {
     background-image: url("../../assets/images/digital_future_section2.png");
-    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #e7fbff;
-    height: 834px;
+    height: auto;
     max-width: 100%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 8rem;
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .dFutureContent {
       width: 627px;
       height: 345px;
@@ -78,7 +77,6 @@
     }
   }
   .whySection {
-    background-color: #e7fbff;
     font-family: "Lato";
     .whyContainer {
       .whText {
@@ -184,7 +182,7 @@
     }
   }
   .servParent {
-    background-color: #e7fbff;
+    margin-bottom: 5rem;
     h1 {
       font-size: 36px;
       color: #555;
@@ -204,7 +202,6 @@
       padding: 1.3rem 0;
     }
     .servCon {
-      background-color: #e7fbff;
       width: 80%;
       margin: auto;
     }
@@ -220,16 +217,16 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        padding-left: 4rem;
+        // padding-left: 4rem;
         padding-top: 3rem;
       }
       .btnSection {
         display: inline-block;
-        padding-left: 4rem;
+        // padding-left: 4rem;
         padding-top: 26rem;
         button {
           color: #223751;
-          background-color: #e7fbff;
+          background: linear-gradient(180deg, #eafaff 0%, #d1e5ff 100%);
           font-family: "Lato";
           font-style: normal;
           font-weight: 600;
@@ -263,7 +260,7 @@
       font-family: "Lato";
       font-style: normal;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 22px;
       line-height: 142%;
       color: #223751;
       padding: 0.4rem 0;
@@ -280,7 +277,7 @@
         drop-shadow(0px 0.185378px 1.85378px rgba(0, 0, 0, 0.0180827));
       background: linear-gradient(
         180deg,
-        rgba(229, 249, 255, 0.82) 0%,
+        rgba(230, 249, 255, 0.82) 0%,
         #ffffff 82.29%
       );
       border-radius: 10px;
@@ -299,7 +296,10 @@
       padding: 2rem 1rem;
     }
     .carousel {
-      height: 650px !important;
+      height: 700px !important;
+    }
+    .carousel-cell:nth-child(odd) {
+      margin: 0px 10px !important;
     }
   }
   #client {
@@ -333,6 +333,7 @@
         position: unset;
         object-fit: unset;
       }
+
       .carousel {
         min-height: calc(100vh - 0px);
       }

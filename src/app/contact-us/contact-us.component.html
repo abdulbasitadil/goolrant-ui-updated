@@ -26,6 +26,12 @@
         <div class="col-md-6 col-sm-12">
           <p>Mandatory fields are marked with *</p>
           <form [formGroup]="userForm" (ngSubmit)="register()">
+            <span
+              class="text-sm text-red-800"
+              *ngIf="message && message['name']"
+            >
+              {{ message["name"] }}
+            </span>
             <div class="input-group">
               <input
                 type="text"
@@ -36,13 +42,13 @@
                   'border-red-800': message && message['name']
                 }"
               />
-              <span
-                class="text-sm text-red-800"
-                *ngIf="message && message['name']"
-              >
-                {{ message["name"] }}
-              </span>
             </div>
+            <span
+              class="text-sm text-red-800"
+              *ngIf="message && message['email']"
+            >
+              {{ message["email"] }}
+            </span>
             <div class="input-group">
               <input
                 type="email"
@@ -53,13 +59,13 @@
                   'border-red-800': message && message['email']
                 }"
               />
-              <span
-                class="text-sm text-red-800"
-                *ngIf="message && message['email']"
-              >
-                {{ message["email"] }}
-              </span>
             </div>
+            <span
+              class="text-sm text-red-800"
+              *ngIf="message && message['phone']"
+            >
+              {{ message["phone"] }}
+            </span>
             <div class="input-group">
               <input
                 type="text"
@@ -70,37 +76,37 @@
                   'border-red-800': message && message['phone']
                 }"
               />
-              <span
-                class="text-sm text-red-800"
-                *ngIf="message && message['phone']"
-              >
-                {{ message["phone"] }}
-              </span>
             </div>
+            <span
+              class="text-sm text-red-800"
+              *ngIf="message && message['subject']"
+            >
+              {{ message["subject"] }}
+            </span>
             <div class="input-group">
               <input
                 type="text"
                 class="form-control"
-                placeholder="Looking for..."
+                placeholder="Looking for*..."
                 formControlName="subject"
                 [ngClass]="{
                   'border-red-800': message && message['subject']
                 }"
               />
-              <span
-                class="text-sm text-red-800"
-                *ngIf="message && message['subject']"
-              >
-                {{ message["subject"] }}
-              </span>
             </div>
+            <span
+              class="text-sm text-red-800"
+              *ngIf="message && message['descmessage']"
+            >
+              {{ message["descmessage"] }}
+            </span>
             <div class="input-group">
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
-                placeholder="Message"
+                placeholder="Message*"
                 formControlName="descmessage"
                 [ngClass]="{
                   'border-red-800': message && message['descmessage']
