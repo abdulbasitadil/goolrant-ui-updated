@@ -1,5 +1,5 @@
 .footer {
-    background: #EAFAFF;
+    background: #2C3036;
     padding   : 40px;
 
     .footer-top {
@@ -10,7 +10,7 @@
             font-size           : 22px;
             line-height         : 26px;
             text-decoration-line: underline;
-            color               : #223751;
+            color               : #3EC5F1;
             cursor              : pointer;
         }
 
@@ -39,11 +39,19 @@
         display        : flex;
         justify-content: space-between;
 
+        span {
+            color: #3EC5F1;
+        }
+        h4 {
+            color: #3EC5F1;
+        }
+
         .bottom-left {
             display: grid;
 
             img {
                 width: 200px;
+                filter: brightness(6.5);
             }
 
             .cpy-rt {
@@ -58,7 +66,7 @@
             width: 35%;
 
             input[type="email"] {
-                border       : 1px solid #8A8A8A;
+                border       : 1px solid #3EC5F1;
                 border-radius: 5px;
                 background   : inherit;
                 padding      : 10px;
@@ -81,7 +89,7 @@
 
                 .privacy {
                     text-decoration: underline;
-                    color          : #223751;
+                    color          : #3EC5F1;
                 }
             }
         }

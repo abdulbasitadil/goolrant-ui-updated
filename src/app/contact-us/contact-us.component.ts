@@ -66,7 +66,7 @@ export class ContactUsComponent implements OnInit {
     let { value } = this.userForm;
     value.receiver = false;
     this.emailapiservice
-      .sendEmail("http://sendmail.goolrant.com/sendmail", value)
+      .sendEmail("https://sendmail.goolrant.com/sendmail", value)
       .subscribe(
         (data: any) => {
           let res: any = data;
@@ -75,7 +75,7 @@ export class ContactUsComponent implements OnInit {
           );
           value.receiver = true;
           this.emailapiservice
-            .sendEmail("http://sendmail.goolrant.com/sendmail", value)
+            .sendEmail("https://sendmail.goolrant.com/sendmail", value)
             .subscribe(
               (response: any) => {
                 console.log(
