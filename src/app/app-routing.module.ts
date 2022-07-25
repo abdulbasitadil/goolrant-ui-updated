@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CloudServicesComponent } from './glrant-services/cloud-services/cloud-services.component';
 import { MobileDevelopmentComponent } from './glrant-services/mobile-development/mobile-development.component';
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
       path: 'contact-us',
       component: ContactUsComponent,
+  },
+  {
+      path: 'about',
+      component: AboutComponent,
   },
   {
       path: 'cloud-service',

@@ -1,8 +1,11 @@
 .home-block {
   .add-video {
     background-image: url('../../assets/images/video.gif');
+    background-size: cover;
+    text-align: center;
+
     img {
-        width: 100%;
+      width: 80%;
     }
   }
   .gFuture {

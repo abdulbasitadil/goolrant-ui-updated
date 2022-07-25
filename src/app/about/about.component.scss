@@ -1,0 +1,98 @@
+.about-main {
+
+    .banner {
+        text-align: center;
+        padding: 0 30px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .who-we-are {
+
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            background: linear-gradient(191.76deg, #233951 8.65%, #3EC5F1 100.79%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        padding: 30px;
+
+        .block {
+            padding: 40px 20px;
+            background: #FFFFFF;
+            box-shadow: 0px -0.670089px 17.869px rgba(57, 197, 239, 0.315937), 0px -0.375647px 10.0172px rgba(57, 197, 239, 0.265), 0px -0.199503px 5.32008px rgba(57, 197, 239, 0.214063), 0px -0.0830177px 2.21381px rgba(57, 197, 239, 0.149007);
+            border-radius: 11px;
+
+            .content {
+               padding: 30px;
+           }
+           .img-right {
+                margin: auto 20%;
+           }
+        }
+
+    }
+    .advantage {
+
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            background: linear-gradient(191.76deg, #233951 8.65%, #3EC5F1 100.79%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        padding: 0 30px;
+
+        .block {
+            padding: 20px;
+
+            .content {
+                background: #FFFFFF;
+                box-shadow: 0px -0.670089px 17.869px rgba(57, 197, 239, 0.315937), 0px -0.375647px 10.0172px rgba(57, 197, 239, 0.265), 0px -0.199503px 5.32008px rgba(57, 197, 239, 0.214063), 0px -0.0830177px 2.21381px rgba(57, 197, 239, 0.149007);
+                border-radius: 11px;
+                padding: 20px;
+                margin: 0 10px;
+           }
+           .cards {
+               justify-content: space-evenly;
+               margin: 20px 0px;
+           }
+        }
+
+    }
+    .solution {
+
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            background: linear-gradient(191.76deg, #233951 8.65%, #3EC5F1 100.79%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        padding: 0 30px;
+
+        .block {
+            padding: 20px;
+        }
+
+        .content {
+
+            .content-left {
+                margin: auto;
+            }
+
+            .content-right {
+                margin: auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
