@@ -1,0 +1,27 @@
+.lets-connect {
+  // background-color: #d3e7ff;
+  background: linear-gradient(rgba(57, 197, 239, 0.3), rgba(57, 197, 239, 0.3)),
+    url("../../assets/images/lets-connect.png");
+  //   background-color: rgba(57, 197, 239, 0.3);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding: 100px 40px;
+  text-align: center;
+
+  .lets-inside {
+    h3 {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      color: #223751;
+    }
+    button {
+      background: linear-gradient(180deg, #3ebbf1 0%, #74adf4 100%);
+      border-radius: 10px;
+      color: #fff;
+      width: 180px;
+      height: 45px;
+      border: none;
+    }
+  }
+}
