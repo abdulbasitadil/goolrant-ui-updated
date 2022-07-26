@@ -17,6 +17,7 @@ import { CloudServicesComponent } from './glrant-services/cloud-services/cloud-s
 import { MobileDevelopmentComponent } from './glrant-services/mobile-development/mobile-development.component';
 import { SoftwareDevelopmentComponent } from './glrant-services/software-development/software-development.component';
 import { AboutComponent } from './about/about.component';
+import { WebAppServicesComponent } from './glrant-services/web-app-services/web-app-services.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { AboutComponent } from './about/about.component';
     MobileDevelopmentComponent,
     SoftwareDevelopmentComponent,
     AboutComponent,
+    WebAppServicesComponent,
   ],
   imports: [
     BrowserModule,

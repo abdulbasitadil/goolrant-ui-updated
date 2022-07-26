@@ -5,22 +5,22 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CloudServicesComponent } from './glrant-services/cloud-services/cloud-services.component';
 import { MobileDevelopmentComponent } from './glrant-services/mobile-development/mobile-development.component';
 import { SoftwareDevelopmentComponent } from './glrant-services/software-development/software-development.component';
+import { WebAppServicesComponent } from './glrant-services/web-app-services/web-app-services.component';
 import { WebDevelopmentComponent } from './glrant-services/web-development/web-development.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
+    path: "",
+    component: HomeComponent,
   },
   {
-      path: 'home',
-      component: HomeComponent,
+    path: "contact-us",
+    component: ContactUsComponent,
   },
   {
-      path: 'contact-us',
-      component: ContactUsComponent,
+    path: "cloud-service",
+    component: CloudServicesComponent,
   },
   {
       path: 'about',
@@ -31,16 +31,20 @@ const routes: Routes = [
       component: CloudServicesComponent,
   },
   {
-      path: 'web-development',
-      component: WebDevelopmentComponent,
+    path: "web-development",
+    component: WebDevelopmentComponent,
   },
   {
-      path: 'mobile-development',
-      component: MobileDevelopmentComponent,
+    path: "mobile-development",
+    component: MobileDevelopmentComponent,
   },
   {
-      path: 'software-development',
-      component: SoftwareDevelopmentComponent,
+    path: "software-development",
+    component: SoftwareDevelopmentComponent,
+  },
+  {
+    path: "web-app-development",
+    component: WebAppServicesComponent,
   },
 ];
 
@@ -48,4 +52,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
