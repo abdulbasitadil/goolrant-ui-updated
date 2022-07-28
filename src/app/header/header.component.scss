@@ -94,9 +94,9 @@
     //     color: #3EC5F1;
     //     text-decoration: underline;
     // }
-    a:active {
+    a.active {
       color: #3ec5f1;
-      text-decoration: underline;
+      text-decoration: underline !important;
     }
   }
 

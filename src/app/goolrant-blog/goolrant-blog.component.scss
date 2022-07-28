@@ -1,0 +1,74 @@
+#blog{
+    padding-bottom: 3rem;
+    .blogHeader{
+        background-color: white;
+        padding: 12px 0px;
+    }
+    .allblogLink
+    {
+        padding: 20px 0;
+        border-top: 1px solid #424242;
+        border-bottom: 1px solid #424242;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        a{
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: #424242;
+            padding: inherit;
+        }
+    }
+    .trendingNews{
+        h3{
+            color: #233951;
+        }
+        p{
+            font-size: 19px;
+            line-height: 26px;
+            color: #50555C;
+        }
+    }
+    .blogNews{
+        .blogDet{
+            img{
+                width: 100%;
+                max-width: 100%;
+            }
+            h3{
+                font-size: 22px;
+                font-weight: bold;
+                color: #233951;
+            }
+            .techSection{
+                padding: 2rem 0;
+                border-top: 1px solid rgba(80, 85, 92, 0.44);
+                border-right: 1px solid rgba(80, 85, 92, 0.44);
+                border-left: 0 !important;
+               .blogdate{
+                font-weight: bold;
+               }
+            }
+        }
+        .blogPop{
+            .blogRight{
+                padding: 12px 0px;
+                color: #3E3F44;
+                border: 1px solid rgba(80, 85, 92, 0.44);
+                border-right: 0;
+                border-left: 0;
+            }
+            .economyNews,.techNews{
+                padding: 21px 0;
+                border-bottom: 1px solid #DBDBDB;
+                h5{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+           
+        }
+    }
+}

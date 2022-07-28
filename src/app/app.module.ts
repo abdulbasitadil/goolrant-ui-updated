@@ -19,6 +19,7 @@ import { SoftwareDevelopmentComponent } from './glrant-services/software-develop
 import { AboutComponent } from './about/about.component';
 import { WebAppServicesComponent } from './glrant-services/web-app-services/web-app-services.component';
 import { LetsConnectComponent } from './lets-connect/lets-connect.component';
+import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { LetsConnectComponent } from './lets-connect/lets-connect.component';
     AboutComponent,
     WebAppServicesComponent,
     LetsConnectComponent,
+    GoolrantBlogComponent,
   ],
   imports: [
     BrowserModule,

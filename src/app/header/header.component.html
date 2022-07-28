@@ -13,21 +13,22 @@
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <!-- NAVIGATION MENUS -->
         <div class="menu" id="menu">
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+          <li><a [routerLink]="['/about']" routerLinkActive="active">About</a></li>
           <li class="services">
-            <a href="/">Services</a>
+            <a href="javascript:void(0)">Services</a>
             <!-- DROPDOWN MENU -->
             <ul class="dropdown">
-              <li><a href="/cloud-service">Cloud Services</a></li>
-              <li><a href="/web-development">WebSite Development</a></li>
-              <li><a href="/mobile-development">Mobile App Development</a></li>
-              <li><a href="/software-development">Software Development</a></li>
-              <li><a href="/web-app-development">Web App Development</a></li>
+              <li><a [routerLink]="['/cloud-service']" routerLinkActive="active">Cloud Services</a></li>
+              <li><a [routerLink]="['/web-development']" routerLinkActive="active">WebSite Development</a></li>
+              <li><a [routerLink]="['/mobile-development']" routerLinkActive="active">Mobile App Development</a></li>
+              <li><a [routerLink]="['/software-development']" routerLinkActive="active">Software Development</a></li>
+              <li><a [routerLink]="['/web-app-development']" routerLinkActive="active">Web App Development</a></li>
             </ul>
           </li>
           <!-- <li><a href="/">Pricing</a></li> -->
-          <li><a href="/contact-us">Contact</a></li>
+          <li><a [routerLink]="['/blog']" routerLinkActive="active">Blog</a></li>
+          <li><a [routerLink]="['/contact-us']" routerLinkActive="active">Contact</a></li>
         </div>
       </ul>
     </nav>
