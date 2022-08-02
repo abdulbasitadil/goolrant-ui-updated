@@ -20,6 +20,7 @@ import { AboutComponent } from './about/about.component';
 import { WebAppServicesComponent } from './glrant-services/web-app-services/web-app-services.component';
 import { LetsConnectComponent } from './lets-connect/lets-connect.component';
 import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
+import { ItStaffingTrainingComponent } from './glrant-services/it-staffing-training/it-staffing-training.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
     WebAppServicesComponent,
     LetsConnectComponent,
     GoolrantBlogComponent,
+    ItStaffingTrainingComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,76 +1,100 @@
 <section id="blog">
-    <div class="blogHeader text-center">
-        <h1>GoolRant Blog</h1>
+  <div class="blogHeader text-center">
+    <h1>GoolRant Blog</h1>
+  </div>
+  <div class="allblogLink">
+    <div class="container">
+      <a class="text-decoration-underline" href="#">All</a>
+      <a [routerLink]="['/web-development']">Website Development</a>
+      <a [routerLink]="['/mobile-development']">Mobile App Development</a>
+      <a [routerLink]="['/software-development']">Software Development</a>
+      <a [routerLink]="['/cloud-service']">Cloud Service</a>
+      <a [routerLink]="['/web-app-development']">Webapp Development</a>
     </div>
-    <div class="allblogLink">
-        <div class="container">
-            <a class="text-decoration-underline" href="#">All</a>
-            <a href="#">Website Development</a>
-            <a href="#">Mobile App Development</a>
-            <a href="#">Software Development</a>
-            <a href="#">Cloud Service</a>
-            <a href="#">Webapp Development</a>
+  </div>
+  <div class="trendingNews">
+    <div class="container">
+      <h3>Top Trends of 2022 in Application Development</h3>
+      <p>
+        The future of app development has evolved vastly due to the rapid
+        digital transformation that has created many resourceful trends in
+        enterprise app development. Over here you'll find some "Top trends in
+        application development of 2022" that you need to be aware of ASAP.
+      </p>
+      <p>
+        These are the top 3 concepts that will be shaping application
+        development in 2022.
+      </p>
+    </div>
+  </div>
+  <div class="blogNews">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 blogDet">
+          <div class="row techSection">
+            <div class="col-lg-5">
+              <img src="../../assets/images/mobile.png" />
+            </div>
+            <div class="col-lg-7">
+              <h3>Mobile Commerce (M-Commerce)</h3>
+              <p class="pt-1">
+                More often e-Commerce and M-Commerce are mistaken for each
+                other. Fundamentally speaking e-Commerce is all about the sale
+                or purchase of goods and services over the internet. In stark
+                contrast to e-Commerce, M-Commerce or Mobile commerce is an
+                extended arm ....
+              </p>
+              <p>May 15, 2022</p>
+            </div>
+          </div>
+          <div class="row techSection">
+            <div class="col-lg-5">
+              <img src="../../assets/images/market.png" />
+            </div>
+            <div class="col-lg-7">
+              <h3>Market Economy Design</h3>
+              <p class="pt-1">
+                Integrate Consumer Guidance or Tracking: As consumers attention
+                span is going down, applications need to guide them over
+                different touch points in order to effectively get their
+                marketing message across, or else the core marketing message is
+                lost or diminished....
+              </p>
+              <p class="pt-2 blogdate">May 15, 2022</p>
+            </div>
+          </div>
+          <div class="row techSection">
+            <div class="col-lg-5">
+              <img src="../../assets/images/5G-Wireless-Technology.png" />
+            </div>
+            <div class="col-lg-7">
+              <h3>5G Tech</h3>
+              <p>
+                Currently, 5G is the most discussed and anticipated topic in the
+                tech market thereby igniting the minds of many tech-savvy
+                consumers who want to experience the true potential of 5G in the
+                form of applications that would inevitably make their lives
+                simpler. But what are the capabilities of 5G in terms of mobile
+                apps? ....
+              </p>
+              <p class="blogdate">May 15, 2022</p>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="trendingNews">
-        <div class="container">
-                <h3>Top Trends of 2022 in Application Development</h3>
-                <p>The future of app development has evolved vastly due to the rapid digital transformation that has created many resourceful trends in enterprise app development. Over here you'll find some "Top trends in application development of 2022" that you need to be aware of ASAP. 
-                </p>
-                <p>These are the top 3 concepts that will be shaping application development in 2022.
-                </p>
+        <div class="col-lg-3 blogPop">
+          <div class="blogRight text-center">
+            <h4>Popular on Blog</h4>
+          </div>
+          <div class="economyNews">
+            <h5 class="">Market Economy Design</h5>
+            <p class="pt-2 blogdate">May 15, 2019</p>
+          </div>
+          <div class="techNews">
+            <h5>5G Tech</h5>
+            <p class="pt-2 blogdate">March 15, 2019</p>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="blogNews">
-        <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 blogDet">
-                            <div class="row techSection">
-                                <div class="col-lg-5">
-                                    <img src="../../assets/images/mobile.png" />
-                                </div>
-                                <div class="col-lg-7">
-                                    <h3>Mobile Commerce (M-Commerce)</h3>
-                                    <p class="pt-1">More often e-Commerce and M-Commerce are mistaken for each other. Fundamentally speaking e-Commerce is all about the sale or purchase of goods and services over the internet. In stark contrast to e-Commerce, M-Commerce or Mobile commerce is an extended arm ....</p>
-                                     <p>May 15, 2022</p>
-                                </div>
-                            </div>
-                            <div class="row techSection">
-                                <div class="col-lg-5">
-                                    <img src="../../assets/images/market.png" />
-                                </div>
-                                <div class="col-lg-7">
-                                    <h3>Market Economy Design</h3>
-                                    <p class="pt-1">Integrate Consumer Guidance or Tracking: 
-                                        As consumers attention span is going down, applications need to guide them over different touch points in order to effectively get their marketing message across, or else the core marketing message is lost or diminished....</p>
-                                    <p class="pt-2 blogdate">May 15, 2022</p>
-                                    </div>
-                            </div>
-                            <div class="row techSection">
-                                <div class="col-lg-5">
-                                    <img src="../../assets/images/5G-Wireless-Technology.png" />
-                                </div>
-                                <div class="col-lg-7">
-                                    <h3>5G Tech</h3>
-                                    <p>Currently, 5G is the most discussed and anticipated topic in the tech market thereby igniting the minds of many tech-savvy consumers who want to experience the true potential of 5G in the form of applications that would inevitably make their lives simpler. But what are the capabilities of 5G in terms of mobile apps? ....</p>
-                                    <p class="blogdate">May 15, 2022</p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-lg-3 blogPop">
-                            <div class="blogRight text-center">
-                                <h4>Popular on Blog</h4>
-                            </div>
-                            <div class="economyNews">
-                                    <h5 class="">Market Economy Design</h5>
-                                    <p class="pt-2 blogdate">May 15, 2019</p>
-                            </div>
-                            <div class="techNews">
-                                <h5>5G Tech</h5>
-                                <p class="pt-2 blogdate">March 15, 2019</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
+  </div>
 </section>

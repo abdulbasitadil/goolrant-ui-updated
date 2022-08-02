@@ -90,7 +90,7 @@
 
   .weblegacy {
     .weblegacycon {
-      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
         url("../../../assets/images/mlegacy_gif.gif");
       background-size: cover;
       background-repeat: round;
@@ -125,6 +125,7 @@
       .webview {
         padding-left: 83px;
         padding-top: 38px;
+        padding-bottom: 3rem;
       }
       .legcaption {
         margin-top: 8rem;
