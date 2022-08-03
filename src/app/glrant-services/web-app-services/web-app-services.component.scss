@@ -15,7 +15,7 @@
         .webTxt {
           font-family: "Lato";
           font-style: normal;
-          line-height: 84px;
+          line-height: 60px;
           font-size: 50px;
           margin-top: 151px;
           padding-left: 37px;
@@ -47,8 +47,8 @@
       .imgcon {
         img.ipad {
           max-width: 100%;
-          width: 100%;
-          margin-top: 255px;
+          width: 78%;
+          margin-top: 12rem;
           padding-right: 24px;
         }
       }
@@ -91,8 +91,8 @@
 
   .weblegacy {
     .weblegacycon {
-      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../../../assets/images/webappgif.gif");
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../../../assets/images/services/web-app/meet1.png");
       background-size: cover;
       background-repeat: round;
       backdrop-filter: blur(4px);
@@ -126,6 +126,7 @@
       .webview {
         padding-left: 83px;
         padding-top: 38px;
+        padding-bottom: 3rem;
       }
       .legcaption {
         margin-top: 8rem;

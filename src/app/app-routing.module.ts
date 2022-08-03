@@ -1,3 +1,5 @@
+import { BlogDetailsComponent } from './goolrant-blog/blog-details/blog-details.component';
+import { ItStaffingTrainingComponent } from './glrant-services/it-staffing-training/it-staffing-training.component';
 import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -51,6 +53,14 @@ const routes: Routes = [
     path: "blog",
     component: GoolrantBlogComponent,
   },
+  {
+    path: "blog/:blogid",
+    component: BlogDetailsComponent,
+  },
+  {
+    path: "it-staffing",
+    component: ItStaffingTrainingComponent,
+  }
 ];
 
 @NgModule({

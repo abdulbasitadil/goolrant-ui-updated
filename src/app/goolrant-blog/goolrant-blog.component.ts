@@ -15,6 +15,7 @@ export class GoolrantBlogComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    
   }
 
 }
