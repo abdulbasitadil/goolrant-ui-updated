@@ -38,6 +38,7 @@
                 max-width: 100%;
             }
             h3{
+                cursor: pointer;
                 font-size: 22px;
                 font-weight: bold;
                 color: #233951;
@@ -50,6 +51,15 @@
                .blogdate{
                 font-weight: bold;
                }
+               .mainBlog{
+                cursor: pointer;
+               }
+               img{
+                cursor: pointer;
+               }
+               p{
+                cursor: pointer;
+               }
             }
         }
         .blogPop{
@@ -61,6 +71,7 @@
                 border-left: 0;
             }
             .economyNews,.techNews{
+                cursor: pointer;
                 padding: 21px 0;
                 border-bottom: 1px solid #DBDBDB;
                 h5{

@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GoolrantBlogComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   ngOnInit(): void {
+    
   }
 
 }

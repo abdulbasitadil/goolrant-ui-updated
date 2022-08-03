@@ -4,7 +4,7 @@
   </div>
   <div class="allblogLink">
     <div class="container">
-      <a class="text-decoration-underline" href="#">All</a>
+      <a class="text-decoration-underline" [routerLink]="['/blog']">All</a>
       <a [routerLink]="['/web-development']">Website Development</a>
       <a [routerLink]="['/mobile-development']">Mobile App Development</a>
       <a [routerLink]="['/software-development']">Software Development</a>
@@ -32,12 +32,14 @@
       <div class="row">
         <div class="col-lg-9 blogDet">
           <div class="row techSection">
-            <div class="col-lg-5">
-              <img src="../../assets/images/mobile.png" />
+            <div class="col-lg-5" [routerLink]="['/blog', 0]">
+              <img src="../../assets/images/blog/mobile.png" />
             </div>
             <div class="col-lg-7">
-              <h3>Mobile Commerce (M-Commerce)</h3>
-              <p class="pt-1">
+              <h3 class="mainBlog" [routerLink]="['/blog', 0]">
+                Mobile Commerce (M-Commerce)
+              </h3>
+              <p class="pt-1" [routerLink]="['/blog', 0]">
                 More often e-Commerce and M-Commerce are mistaken for each
                 other. Fundamentally speaking e-Commerce is all about the sale
                 or purchase of goods and services over the internet. In stark
@@ -48,12 +50,14 @@
             </div>
           </div>
           <div class="row techSection">
-            <div class="col-lg-5">
-              <img src="../../assets/images/market.png" />
+            <div class="col-lg-5" [routerLink]="['/blog', 1]">
+              <img src="../../assets/images/blog/market.png" />
             </div>
             <div class="col-lg-7">
-              <h3>Market Economy Design</h3>
-              <p class="pt-1">
+              <h3 [routerLink]="['/blog', 1]" class="mainBlog">
+                Market Economy Design
+              </h3>
+              <p class="pt-1" [routerLink]="['/blog', 1]">
                 Integrate Consumer Guidance or Tracking: As consumers attention
                 span is going down, applications need to guide them over
                 different touch points in order to effectively get their
@@ -64,12 +68,12 @@
             </div>
           </div>
           <div class="row techSection">
-            <div class="col-lg-5">
-              <img src="../../assets/images/5G-Wireless-Technology.png" />
+            <div class="col-lg-5" [routerLink]="['/blog', 2]">
+              <img src="../../assets/images/blog/5G-Wireless-Technology.png" />
             </div>
             <div class="col-lg-7">
-              <h3>5G Tech</h3>
-              <p>
+              <h3 [routerLink]="['/blog', 2]" class="mainBlog">5G Tech</h3>
+              <p [routerLink]="['/blog', 2]">
                 Currently, 5G is the most discussed and anticipated topic in the
                 tech market thereby igniting the minds of many tech-savvy
                 consumers who want to experience the true potential of 5G in the
@@ -85,11 +89,11 @@
           <div class="blogRight text-center">
             <h4>Popular on Blog</h4>
           </div>
-          <div class="economyNews">
+          <div class="economyNews" [routerLink]="['/blog', 1]">
             <h5 class="">Market Economy Design</h5>
             <p class="pt-2 blogdate">May 15, 2019</p>
           </div>
-          <div class="techNews">
+          <div class="techNews" [routerLink]="['/blog', 2]">
             <h5>5G Tech</h5>
             <p class="pt-2 blogdate">March 15, 2019</p>
           </div>

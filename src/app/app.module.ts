@@ -21,6 +21,7 @@ import { WebAppServicesComponent } from './glrant-services/web-app-services/web-
 import { LetsConnectComponent } from './lets-connect/lets-connect.component';
 import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
 import { ItStaffingTrainingComponent } from './glrant-services/it-staffing-training/it-staffing-training.component';
+import { BlogDetailsComponent } from './goolrant-blog/blog-details/blog-details.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ItStaffingTrainingComponent } from './glrant-services/it-staffing-train
     LetsConnectComponent,
     GoolrantBlogComponent,
     ItStaffingTrainingComponent,
+    BlogDetailsComponent,
   ],
   imports: [
     BrowserModule,
