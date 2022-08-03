@@ -1,5 +1,7 @@
 .home-block {
-  padding: 0 40px;
+  .inside-home {
+    padding: 0 40px;
+  }
   .add-video {
     background-image: url('../../assets/images/video.gif');
     background-size: cover;
@@ -298,6 +300,12 @@
     .card-body {
       flex: 1 1 auto;
       padding: 2rem 1rem;
+      min-height: 545px;
+
+      .read-more {
+        position: absolute;
+        bottom: 4%;
+      }
     }
     .carousel {
       height: 700px !important;
