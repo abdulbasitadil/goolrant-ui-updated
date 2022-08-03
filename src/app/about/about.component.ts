@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollToTopService } from '../services/scroll-to-top.service';
 
 @Component({
   selector: 'app-about',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private scrollToTop: ScrollToTopService
+  ) { 
+    this.scrollToTop.scrollToTop();
+  }
 
   ngOnInit(): void {
   }

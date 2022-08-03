@@ -9,6 +9,7 @@ import {
 } from "@angular/forms";
 import { Observable, fromEvent, merge } from "rxjs";
 import { debounceTime } from "rxjs/operators";
+import { ScrollToTopService } from '../services/scroll-to-top.service';
 @Component({
   selector: "app-contact-us",
   templateUrl: "./contact-us.component.html",
@@ -28,8 +29,10 @@ export class ContactUsComponent implements OnInit {
   constructor(
     private emailapiservice: EmailApiService,
     private toastrService: ToastrService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private scrollToTop: ScrollToTopService
   ) {
+    this.scrollToTop.scrollToTop();
     this.typeSelected = "ball-fussion";
     this.validationMessages = {
       name: {
