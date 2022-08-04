@@ -1,7 +1,7 @@
 .home-block {
-  .inside-home {
-    padding: 0 40px;
-  }
+  // .inside-home {
+  //   padding: 0 40px;
+  // }
   .add-video {
     background-image: url('../../assets/images/video.gif');
     background-size: cover;
@@ -11,13 +11,18 @@
       width: 80%;
     }
   }
+  .video-view {
+    padding: 0 40px;
+  }
   .gFuture {
     background-image: url("../../assets/images/digital_future_section2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     max-width: 100%;
-    padding-bottom: 8rem;
+    margin-bottom: 8rem;
+    padding: 0px 40px;
+
     // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .dFutureContent {
       width: 627px;
@@ -44,8 +49,8 @@
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
       p {
-        font-family: "Lato";
-        font-style: normal;
+        // font-family: "Lato";
+        // font-style: normal;
         font-weight: 600;
         font-size: 22px;
         line-height: 148%;
@@ -83,7 +88,8 @@
     }
   }
   .whySection {
-    font-family: "Lato";
+    // font-family: "Lato";
+    padding: 0 40px;
     .whyContainer {
       .whText {
         font-style: normal;
@@ -189,6 +195,9 @@
   }
   .servParent {
     margin-bottom: 5rem;
+    padding: 0 40px;
+    background: white;
+
     h1 {
       font-size: 36px;
       color: #555;
@@ -196,8 +205,8 @@
     }
 
     h3 {
-      font-family: "Lato";
-      font-style: normal;
+      // font-family: "Lato";
+      // font-style: normal;
       font-weight: 700;
       font-size: 22px;
       line-height: 89%;
@@ -214,8 +223,8 @@
     .serviceSection {
       // position: absolute;
       h1 {
-        font-family: "Lato";
-        font-style: normal;
+        // font-family: "Lato";
+        // font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 36px;
@@ -233,8 +242,8 @@
         button {
           color: #223751;
           background: linear-gradient(180deg, #eafaff 0%, #d1e5ff 100%);
-          font-family: "Lato";
-          font-style: normal;
+          // font-family: "Lato";
+          // font-style: normal;
           font-weight: 600;
           font-size: 22px;
           line-height: 26px;
@@ -263,8 +272,8 @@
     }
 
     #team p {
-      font-family: "Lato";
-      font-style: normal;
+      // font-family: "Lato";
+      // font-style: normal;
       font-weight: 400;
       font-size: 22px;
       line-height: 142%;
@@ -300,7 +309,7 @@
     .card-body {
       flex: 1 1 auto;
       padding: 2rem 1rem;
-      min-height: 545px;
+      min-height: 580px;
 
       .read-more {
         position: absolute;
@@ -308,7 +317,7 @@
       }
     }
     .carousel {
-      height: 700px !important;
+      height: 760px !important;
     }
     .carousel-cell:nth-child(odd) {
       margin: 0px 10px !important;
