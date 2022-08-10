@@ -5,9 +5,9 @@
           url("../../../assets/images/service_front.gif");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        // height: 100vh;
         backdrop-filter: blur(4px);
-  
+        padding-bottom: 4rem;
         .webheader {
           border-left: 3px solid #39c5ef;
           margin-left: 42px;
@@ -15,9 +15,9 @@
           .webTxt {
             font-family: "Lato";
             font-style: normal;
-            line-height: 84px;
+            // line-height: 84px;
             font-size: 46px;
-            margin-top: 151px;
+            margin-top: 7rem;
             padding-left: 37px;
             background: linear-gradient(
               191.76deg,
@@ -48,8 +48,8 @@
           img.ipad {
             max-width: 100%;
             width: 100%;
-            margin-top: 212px;
-            padding-right: 24px;
+            margin-top: 9rem;
+            // padding-right: 24px;
           }
         }
       }
@@ -59,7 +59,8 @@
         background-image: url("../../../assets/images/vector_line.png");
         background-size: cover;
         background-repeat: no-repeat;
-        padding-bottom: 11rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem;
         background-color: #e7fbff;
         h1 {
           background: linear-gradient(191.76deg, #233951 8.65%, #3ec5f1 100.79%);
@@ -67,24 +68,38 @@
           -webkit-text-fill-color: transparent;
           background-clip: text;
         }
-        .card {
-          width: 21rem;
-          max-height: 22rem;
-          height: 22rem;
-          .card-title {
-            font-size: 48px;
-            line-height: 89%;
-            color: #223751;
+        .cardContainer{
+          .card {
+            width: 21rem;
+            max-height: 22rem;
+            height: 22rem;
+            .card-title {
+              font-size: 48px;
+              line-height: 89%;
+              color: #223751;
+            }
+            .card-text {
+              padding: 22px 15px;
+            }
           }
-          .card-text {
-            padding: 22px 15px;
+          .card-body {
+            background: #ffffff;
+            box-shadow: 0px 0px 40.05px rgba(57, 197, 239, 0.5);
+            border-radius: 10px;
           }
-        }
-  
-        .card-body {
-          background: #ffffff;
-          box-shadow: 0px 0px 40.05px rgba(57, 197, 239, 0.5);
-          border-radius: 10px;
+          .card1,.card2,.card3{
+            display: flex;
+            justify-content: center;
+          }
+          .card1{
+            margin-top: 4rem;
+          }
+          .card2{
+            margin-top: 14rem;
+          }
+          .card3{
+            margin-top: 23rem;
+          }
         }
       }
     }
@@ -136,6 +151,70 @@
             line-height: 40px;
             color: #ffffff;
             text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 1023px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+      .webblock{
+        .webCon{
+          padding: 20px 0;
+          .webheader{
+            height: 0;
+            margin-left: 0;
+            .webTxt{
+              text-align: center;
+              margin-top: 0;
+              padding-left: 0;
+              padding-top: 2rem;
+            }
+          }
+          .arrow{
+            display: none;
+          }
+          .imgcon{
+            text-align: center;
+            img.ipad{
+              margin-top: 11rem;
+            }
+          }
+        }
+      }
+      .webfeatures{
+        .featureCon{
+          .cardContainer{
+            .card1,.card2,.card3{
+              display: flex;
+              justify-content: center;
+            }
+            .card1{
+              margin-top: 2rem
+            }
+            .card2{
+              margin-top: 4rem
+            }
+            .card3{
+              margin-top: 7rem
+            }
+          }
+        }
+      }
+      .weblegacy{
+      .weblegacycon {
+          .webview{
+            padding-left: 0;
+            .legh1Txt{
+              h1{
+                font-size: 58px;
+              }
+            }
+            .legPtext{
+              border-left: 0;
+            }
           }
         }
       }

@@ -4,10 +4,10 @@
             background-image: url("../../../assets/images/dummygif.gif");
             background-size  : cover;
             background-repeat: no-repeat;
-            height           : auto;
+            // height           : auto;
             background-color : rgba(0, 0, 0, 0.7);
             backdrop-filter  : blur(4px);
-
+            padding-bottom: 4rem;
             .webheader {
                 border-left: 3px solid #39c5ef;
                 margin-left: 42px;
@@ -16,7 +16,7 @@
                 .webTxt {
                     font-family : "Lato";
                     font-style  : normal;
-                    line-height : 84px;
+                    // line-height : 84px;
                     font-size   : 50px;
                     margin-top  : 151px;
                     padding-left: 37px;
@@ -38,9 +38,9 @@
             .imgcon {
                 img.ipad {
                     max-width    : 100%;
-                    width        : 100%;
-                    margin-top   : 255px;
-                    padding-right: 24px;
+                    width        : 90%;
+                    margin-top   : 11rem;
+                    // padding-right: 24px;
                 }
             }
         }
@@ -51,7 +51,8 @@
             background-image : url("../../../assets/images/vector_line.png");
             background-size  : cover;
             background-repeat: no-repeat;
-            padding-bottom   : 13rem;
+            padding-top: 2rem;
+            padding-bottom: 14rem;
             background-color : #e7fbff;
 
             h1 {
@@ -61,27 +62,39 @@
                 background-clip        : text;
             }
 
-            .card {
-                width     : 21rem;
-                max-height: 22rem;
-                height    : 22rem;
-
-                .card-title {
-                    font-size  : 48px;
+            .cardContainer{
+                .card {
+                  width: 21rem;
+                  max-height: 22rem;
+                  height: 22rem;
+                  .card-title {
+                    font-size: 48px;
                     line-height: 89%;
-                    color      : #223751;
-                }
-
-                .card-text {
+                    color: #223751;
+                  }
+                  .card-text {
                     padding: 22px 15px;
+                  }
                 }
-            }
-
-            .card-body {
-                background   : #ffffff;
-                box-shadow   : 0px 0px 40.05px rgba(57, 197, 239, 0.5);
-                border-radius: 10px;
-            }
+                .card-body {
+                  background: #ffffff;
+                  box-shadow: 0px 0px 40.05px rgba(57, 197, 239, 0.5);
+                  border-radius: 10px;
+                }
+                .card1,.card2,.card3{
+                  display: flex;
+                  justify-content: center;
+                }
+                .card1{
+                  margin-top: 4rem
+                }
+                .card2{
+                  margin-top: 14rem
+                }
+                .card3{
+                  margin-top: 23rem
+                }
+              }
         }
     }
 
@@ -120,8 +133,9 @@
             }
 
             .webview {
-                padding-left: 83px;
+                padding-left: 3rem;
                 padding-top : 38px;
+                padding-bottom: 3rem;
             }
 
             .legcaption {
@@ -161,4 +175,75 @@
             }
         }
     }
+    @media only screen and (max-width: 1023px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+        .webblock{
+          .webCon{
+            padding: 20px 0;
+            .webheader{
+              height: 0;
+              margin-left: 0;
+              .webTxt{
+                text-align: center;
+                margin-top: 0;
+                padding-left: 0;
+              }
+            }
+            .arrow{
+              display: none;
+            }
+            .imgcon{
+              text-align: center;
+              margin-left: 3rem;
+              margin-top: 2rem;
+              img.ipad{
+                margin-top: 10rem;
+              }
+            }
+          }
+        }
+        .webfeatures{
+          .featureCon{
+            .cardContainer{
+              .card1,.card2,.card3{
+                display: flex;
+                justify-content: center;
+              }
+              .card1{
+                margin-top: 2rem
+              }
+              .card2{
+                margin-top: 7rem
+              }
+              .card3{
+                margin-top: 9rem
+              }
+            }
+          }
+        }
+        .weblegacy{
+        .weblegacycon {
+          .webrow{
+            .webview{
+              padding-left: 0;
+              .legh1Txt{
+                h1{
+                  font-size: 58px;
+                }
+              }
+              .legPtext{
+                border-left: 0;
+              }
+            }
+            .legcaption{
+              text-align: center;
+              margin-top: 0;
+            }
+          }
+          }
+        }
+      }
 }
