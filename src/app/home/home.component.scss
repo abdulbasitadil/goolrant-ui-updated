@@ -392,4 +392,117 @@
       }
     }
   }
+
+  @media screen and (max-width: 767px) {
+    .header {
+      padding: 0 !important;
+    }
+    .add-video {
+      img {
+        width: 100% !important;
+      }
+    }
+    .video-view {
+      padding: 0;
+    }
+    .gFuture {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
+      padding: 0px 20px 140px 20px;
+      margin-bottom: 20px !important;
+    }
+    .whySection {
+      padding: 0;
+    }
+    .servParent {
+      padding: 0;
+    }
+    .servCon {
+      width: 100% !important;
+      #team {
+        left: 0 !important;
+      }
+      ::ng-deep {
+        .carousel-container {
+          width: 100% !important;
+          left: -40px;
+          position: absolute;
+        }
+        .carousel-cell {
+          width: 290px !important;
+          left: 100px;
+        }
+      }
+    }
+    .dFutureContent {
+      width: auto !important;
+      height: auto !important;
+      margin: 20px 0 0 0px !important;
+      padding-left: 20px !important;
+
+      .heaContent {
+        width: auto !important;
+        height: auto !important;
+      }
+      .parContent {
+        width: auto !important;
+        height: auto !important;
+      }
+    }
+    .whyBox {
+      background-repeat: no-repeat !important;
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+    .personalizedBox {
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+    .agilityBox {
+      background-repeat: no-repeat !important;
+      background-image: url('../../assets/images/innovative_bg.png') !important;
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+    .hLink {
+      a {
+        padding-left: 12px !important;
+      }
+    }
+  }
+  //responsive
+  .responsive-service {
+    text-align: center;
+    h1 {
+      padding-top: 30px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 89%;
+      text-align: center;
+      background: linear-gradient(180deg, #244056 7.29%, #3EC5F1 100%);
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    button {
+      color: #223751;
+      background: linear-gradient(180deg, #eafaff 0%, #d1e5ff 100%);
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      border-radius: 6px;
+      padding: 11px 9px;
+      border: 3px solid #3EC5F1;
+      margin-bottom: 20px;
+
+    }
+  }
 }

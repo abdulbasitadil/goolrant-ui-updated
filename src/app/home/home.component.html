@@ -44,8 +44,14 @@
     <section class="servParent">
       <!-- <div class="container p-0"> -->
       <div class="">
+        <div *ngIf="isMobile" class="responsive-service">
+          <h1>
+            Our <br />
+            Services
+          </h1>
+        </div>
         <div class="d-flex">
-          <div class="serviceSection">
+          <div class="serviceSection" *ngIf="!isMobile">
             <h1>
               Our <br />
               Services
@@ -55,7 +61,7 @@
             </div>
           </div>
           <section class="servCon">
-            <carousel [cellsToShow]="3">
+            <carousel [cellsToShow]="cellCount">
               <div class="carousel-cell">
                 <section id="team">
                   <div class="card">
@@ -178,6 +184,11 @@
               </div>
             </carousel>
           </section>
+        </div>
+        <div *ngIf="isMobile" class="responsive-service">
+          <div class="btnSection">
+            <button type="button">ALL SERVICES</button>
+          </div>
         </div>
       </div>
     </section>
