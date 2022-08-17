@@ -3,7 +3,7 @@
     <h1>GoolRant Blog</h1>
   </div>
   <div class="allblogLink">
-    <div class="container">
+    <div class="flex-container">
       <a class="text-decoration-underline" [routerLink]="['/blog']">All</a>
       <a [routerLink]="['/web-development']">Website Development</a>
       <a [routerLink]="['/mobile-development']">Mobile App Development</a>
@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="trendingNews">
-    <div class="container">
+    <div class="container blgCON">
       <h3>Top Trends of 2022 in Application Development</h3>
       <p>
         The future of app development has evolved vastly due to the rapid
@@ -32,10 +32,10 @@
       <div class="row">
         <div class="col-lg-9 blogDet">
           <div class="row techSection">
-            <div class="col-lg-5" [routerLink]="['/blog', 0]">
+            <div class="col-lg-5 blogImg" [routerLink]="['/blog', 0]">
               <img src="../../assets/images/blog/mobile.png" />
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 blogimgdet">
               <h3 class="mainBlog" [routerLink]="['/blog', 0]">
                 Mobile Commerce (M-Commerce)
               </h3>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="row techSection">
-            <div class="col-lg-5" [routerLink]="['/blog', 1]">
+            <div class="col-lg-5 blogImg" [routerLink]="['/blog', 1]">
               <img src="../../assets/images/blog/market.png" />
             </div>
             <div class="col-lg-7">
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="row techSection">
-            <div class="col-lg-5" [routerLink]="['/blog', 2]">
+            <div class="col-lg-5 blogImg" [routerLink]="['/blog', 2]">
               <img src="../../assets/images/blog/5G-Wireless-Technology.png" />
             </div>
             <div class="col-lg-7">
