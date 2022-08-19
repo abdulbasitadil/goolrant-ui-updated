@@ -28,6 +28,7 @@
 
             .content {
                padding: 30px;
+               display: flex;
            }
            .img-right {
                 margin: auto 20%;
@@ -60,6 +61,7 @@
            .cards {
                justify-content: space-evenly;
                margin: 20px 0px;
+               display: flex;
            }
         }
 
@@ -81,7 +83,7 @@
         }
 
         .content {
-
+            display: flex;
             .content-left {
                 margin: auto;
             }
@@ -91,6 +93,47 @@
 
                 img {
                     width: 100%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .who-we-are {
+            .block {
+                .content {
+                    display: block;
+                }
+                .img-right {
+                    margin: auto;
+                    img {
+                        width: 100%;
+                    }
+               }
+            }
+        }
+        .advantage {
+            .block {
+                .content {
+                    margin: 20px 10px;
+                }
+                .cards {
+                    display: block;
+                }
+            }
+        }
+        .solution {
+            .block {
+                .content {
+                    display: block;
+                }
+                .responsive-mode {
+                    display: flex;
+                    flex-direction: column;
+
+                    .content-right {
+                        order: 2;
+                    }
                 }
             }
         }

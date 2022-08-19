@@ -1,5 +1,5 @@
 .contact-us {
-  padding: 0 40px;
+  padding: 0 30px;
   .vertical-line {
     border-left: 3px solid gray;
     padding-right: 20px;
@@ -94,5 +94,18 @@
   }
   .text-red-800 {
     color: #9b2c2c;
+  }
+
+  @media screen and (max-width: 767px) {
+    .bottom-side {
+      padding: 10px;
+      .bottom-below {
+        display: block;
+      }
+    }
+    .top-side {
+      padding: 10px;
+      display: block;
+    }
   }
 }
