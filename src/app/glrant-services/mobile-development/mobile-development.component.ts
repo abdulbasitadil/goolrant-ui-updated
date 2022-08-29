@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mobile-development',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MobileDevelopmentComponent implements OnInit {
 
-  constructor() { }
+  url: any;
+  constructor(
+    private router: Router
+  ) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.url = this.router.url;
   }
 
 }

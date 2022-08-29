@@ -22,6 +22,7 @@ import { LetsConnectComponent } from './lets-connect/lets-connect.component';
 import { GoolrantBlogComponent } from './goolrant-blog/goolrant-blog.component';
 import { ItStaffingTrainingComponent } from './glrant-services/it-staffing-training/it-staffing-training.component';
 import { BlogDetailsComponent } from './goolrant-blog/blog-details/blog-details.component';
+import { MetaTagsComponent } from './meta-tags/meta-tags.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { BlogDetailsComponent } from './goolrant-blog/blog-details/blog-details.
     GoolrantBlogComponent,
     ItStaffingTrainingComponent,
     BlogDetailsComponent,
+    MetaTagsComponent,
   ],
   imports: [
     BrowserModule,

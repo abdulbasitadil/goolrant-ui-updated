@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cloud-services',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CloudServicesComponent implements OnInit {
 
-  constructor() { }
+  url: any = '';
 
-  ngOnInit(): void {
+  constructor(
+    private router: Router
+  ) { }
+
+  ngOnInit() {
+    this.url = this.router.url;
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ScrollToTopService } from '../services/scroll-to-top.service';
 
 @Component({
@@ -7,14 +8,16 @@ import { ScrollToTopService } from '../services/scroll-to-top.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
+  url: string = '';
   constructor(
-    private scrollToTop: ScrollToTopService
+    private scrollToTop: ScrollToTopService,
+    private router: Router
   ) { 
     this.scrollToTop.scrollToTop();
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.url = this.router.url;
   }
 
 }

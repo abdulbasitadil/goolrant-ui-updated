@@ -10,6 +10,7 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 export class HomeComponent implements OnInit {
   isMobile: boolean = false;
   cellCount = 3;
+  url: any;
 
   constructor(
     private router: Router,
@@ -17,6 +18,7 @@ export class HomeComponent implements OnInit {
     ) {}
 
   ngOnInit(): void {
+    this.url = this.router.url;
     this.breakpointObserver
     .observe([
         Breakpoints.XSmall,
