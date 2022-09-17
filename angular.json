@@ -32,7 +32,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": ["src/favicon.ico", "src/assets", "src/sitemap.xml"],
+            "assets": [
+              "src/favicon.ico", 
+              "src/assets", 
+              "src/sitemap.xml",
+              "src/robots.txt"
+            ],
             "styles": [
               "node_modules/ngx-toastr/toastr.css",
               "src/styles.scss",
